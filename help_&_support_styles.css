@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/image6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+.contact-info, .contact-form {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.contact-info .title, .contact-form .title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info .text {
+    color: #555;
+    line-height: 1.5;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.information {
+    margin-bottom: 20px;
+}
+
+.information img {
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.information p {
+    color: #555;
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input, .input-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.input-container input:focus, .input-container textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.input-container input:focus + label, .input-container textarea:focus + label, .input-container input:not(:placeholder-shown) + label, .input-container textarea:not(:placeholder-shown) + label {
+    top: -12px;
+    left: 5px;
+    font-size: 12px;
+    color: #007bff;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.contact-info,.contact-form{
+
+    display: inline-block;
+}

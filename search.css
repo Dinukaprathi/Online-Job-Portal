@@ -1,0 +1,121 @@
+#drop_category{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    }
+
+    #searchbox{
+
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 33%;
+        transform: translate(-50%, -50%);
+        height: 30px;
+        width: 160px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        font-size: 15px;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    #search_btn {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        height: 40px;
+        width: 90px;
+        padding: 5px;
+        border-radius: 30px;
+        border: transparent;
+        background-color: #E60023; 
+        color: white; 
+        font-size: 15px;
+        font-family: sans-serif;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; 
+    }
+    
+    #search_btn:hover {
+        background-color: darkred; 
+        border-color: #87ceeb; 
+        color:white; 
+    }
+    
+    #location{
+    
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        height: 40px;
+        width: 150px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+.job_row {
+    display: flex;
+    width: 600px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+.job_section {
+    padding: 10px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.company_logo img {
+    max-width: 100px; 
+    max-height: 100px; 
+}
+
+.company_details {
+    margin-right: 10px;
+}
+
+.company_details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.company_details p {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.company_details p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.job_row,.job_section{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.job_row:hover {
+    border-left: 5px solid grey;
+    transition: border-left-color 0.3s ease;
+}
